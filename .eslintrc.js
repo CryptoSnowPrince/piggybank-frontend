@@ -38,5 +38,11 @@ module.exports = {
         'class-methods-use-this': 'off',
         'jsx-a11y/no-autofocus': 'off',
         'no-await-in-loop': 'off',
+        'prettier/prettier': [
+            'error',
+            {
+                endOfLine: 'auto',
+            },
+        ],
     },
 };
